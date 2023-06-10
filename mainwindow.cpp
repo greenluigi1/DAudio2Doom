@@ -164,7 +164,7 @@ void MainWindow::inputTimerTick()
         addDoomKeyToQueue(1, newDirection);
 
 #if DAUDIO2DOOM_EXTRA_LOGGING
-        __android_log_print(ANDROID_LOG_DEBUG, "DAudio2Doom", "MainWindow::InputTimerTick() Current Direction (%u) New Direction (%u)", currentDirection, newDirection);
+        __android_log_print(ANDROID_LOG_DEBUG, "DAudio2Doom", "MainWindow::inputTimerTick() Current Direction (%u) New Direction (%u)", currentDirection, newDirection);
 #endif
     }
 

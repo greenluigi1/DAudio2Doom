@@ -29,9 +29,10 @@ This will copy the DAudio2Doom app configuration file to the system:
 cp /run/media/{YourFlashDriveGuid}/DAudio2Doom.appconf /etc/appmanager/appconf
 ```
 
-This will copy the DAudio2Doom binary to the appdata folder on the head unit:
+This will copy the DAudio2Doom binary to the appdata folder on the head unit and mark it as executable:
 ```
 cp /run/media/{YourFlashDriveGuid}/DAudio2Doom /appdata
+chmod +x /appdata/DAudio2Doom
 ```
 
 This will copy the Doom WAD file to the appdata folder on the head unit:

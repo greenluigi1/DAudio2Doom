@@ -1,0 +1,7 @@
+[Application]
+Name=com.greenluigi1.doom
+Exec=/appdata/DAudio2Doom
+
+[DoomAppView]
+# ComponentName : com.greenluigi1.doom.DoomAppView
+Type=AppView

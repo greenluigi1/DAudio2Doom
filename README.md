@@ -1,7 +1,9 @@
 # D-Audio 2V Doom
 This contains a basic port of DOOM for D-Audio 2V IVIs.
 
-To see more information on creating D-Audio 2 applications visit my [blog posts](https://programmingwithstyle.com/tags/d-audio2/)
+DAudio2Doom is based off of [doomgeneric by ozkl](https://github.com/ozkl/doomgeneric).
+
+To see more information on creating D-Audio 2 applications visit [my blog](https://programmingwithstyle.com/tags/d-audio2/).
 
 ## Installing
 To install DAudio2Doom on a D-Audio2V head unit make sure you have a root shell. Follow [this guide](https://programmingwithstyle.com/posts/howihackedmycarpart5/) to create an ADB backdoored firmware for your head unit if you do not already have one.
